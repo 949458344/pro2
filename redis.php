@@ -17,4 +17,5 @@ require "redis.class.php";
 $redis = new RedisCluster();
 $redis->set('title','华育国际');
 echo $redis->get('title');
+die;
 ?>
